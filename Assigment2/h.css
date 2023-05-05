@@ -1,0 +1,22 @@
+#ab{
+	background-color:darkgrey; border-width:100px; 
+	font-size:300%; text-align:center; font-family:Arial; 
+}
+#cd{
+	font-family:Monaco; font-size:30px; 
+}
+#ef{
+	display:block; float:left; 
+	width:60%;font-size:30px; 
+	
+}
+#j{
+	display:block; float:right;  width:40%; height:40%;
+}
+#h{
+	font-family:Monaco;  font-size:30px; style-type:disc; display:block;
+}
+body{
+	background-image: url("bg1.jfif");
+      background-repeat: repeat-x;
+}

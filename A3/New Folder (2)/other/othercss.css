@@ -1,0 +1,44 @@
+body{
+background-image:url("https://th.bing.com/th/id/R.f4657afbe00df02f1ff2602251312148?rik=go2XJgIAsUHpGA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2foePE9lU.jpg&ehk=C0Gkc0e39yEuSYiHUy%2fiEOonYr8%2bdTbHkJWvCd8y7to%3d&risl=&pid=ImgRaw&r=0");
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+height:auto;
+width:auto;
+
+
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / span5;
+  height:auto;
+  width:auto;
+}
+.item2 {
+  grid-column: 1 / 2;
+  grid-row: 2 / span 6;
+  height:auto;
+  width:auto;
+  
+}
+.item3 {
+  grid-column: 2 /span5;
+  grid-row: 2 / span 6;
+
+}
+.item4 {
+  grid-column: 1 / span5;
+  height:auto;
+  width:auto;
+}
